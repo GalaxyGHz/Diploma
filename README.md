@@ -1,0 +1,1 @@
+### Diploma Thesis Code For "Sarcasm detection with transfer learning from multiple sources" in the Slovene language

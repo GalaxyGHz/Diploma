@@ -1,0 +1,6 @@
+small_models/best_checkpoints
+large_models/best_checkpoints
+*.pyc
+*.pyo
+__pycache__/
+.env
