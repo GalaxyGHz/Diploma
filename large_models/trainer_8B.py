@@ -62,7 +62,7 @@ def run_training(model_name):
         logging_strategy="steps",
         eval_strategy="steps",
         eval_steps=STEPS,
-        num_train_epochs=5,
+        num_train_epochs=10,
         log_level="info",
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
