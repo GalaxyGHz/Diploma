@@ -41,8 +41,8 @@ def create_files():
         output_file.write(json.dumps(example) + "\n")
 
 def fine_tune():
-    train_save_file = f'./fine_tuning_gpt3/train_batch.jsonl'
-    val_save_file = f'./fine_tuning_gpt3/val_batch.jsonl'
+    train_save_file = f'./fine_tuning_gpt3/fine_tune_train_batch.jsonl'
+    val_save_file = f'./fine_tuning_gpt3/fine_tune_val_batch.jsonl'
 
     train_file = client.files.create(
         file=open(train_save_file, "rb"),

@@ -16,3 +16,6 @@ def calculate_accuracy_and_f1(path_to_preds='.'):
 
 if __name__ == '__main__':
     calculate_accuracy_and_f1('./results/bert-base-multilingual-cased_predictions.csv')
+    calculate_accuracy_and_f1('./results/EMBEDDIA_predictions.csv')
+    calculate_accuracy_and_f1('./results/xlm-roberta-base_predictions.csv')
+    calculate_accuracy_and_f1('./results/xlm-roberta-large_predictions.csv')

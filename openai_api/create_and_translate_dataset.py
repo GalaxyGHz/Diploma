@@ -10,7 +10,7 @@ from openai_request import create_request
 # Get environment variables from .env
 load_dotenv()
 
-MODEL = "GPT-4o-2024-05-13"
+MODEL = "gpt-4o" # at time of writting points to GPT-4o-2024-05-13
 
 CLASSIFICATION_PROMPT = '''You will be provided with text in the Slovenian language, and your task is to classify whether it is sarcastic or not. Use ONLY token 0 (not sarcastic) or 1 (sarcastic) as in the examples:
 Spanje? Kaj je to... Še nikoli nisem slišal za to? 1
