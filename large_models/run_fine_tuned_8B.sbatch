@@ -1,5 +1,5 @@
 #!/bin/bash
-#BATCH --job-name=lazar_no_fine_tuning_sarcasm_8B
+#BATCH --job-name=lazar_fined_tuned_run_sarcasm_8B
 #SBATCH --partition=frida
 #SBATCH --time=4:00:00
 #SBATCH --gres=gpu:A100:1
@@ -12,4 +12,4 @@ srun \
   --container-image nvcr.io#nvidia/pytorch:24.07-py3 \
   --container-mounts ${PWD}:${PWD} \
   --container-workdir ${PWD} \
-  bash -c 'pip install pandas accelerate python-dotenv transformers;MODEL_ID=0 python3 run_model.py'
+  bash -c 'pip install pandas accelerate python-dotenv transformers peft trl bitsandbytes;MODEL_ID=3 python3 run_model.py'

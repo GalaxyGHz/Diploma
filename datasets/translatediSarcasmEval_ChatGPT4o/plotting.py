@@ -17,7 +17,7 @@ maximum= max(counts.Value)
 # Plot
 fig = plt.figure(figsize = (10, 6))
 plt.bar(counts.Value, counts.Frequency, color=(0.5, 0.68, 0.99))
-plt.xlabel("Length")
+plt.xlabel("Character Length")
 plt.ylabel("Frequency")
 plt.xlim(minimum, maximum)
 plt.title(label=f"Slovene Translation Of iSarcasmEval Dataset\n")

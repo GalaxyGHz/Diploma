@@ -1,4 +1,4 @@
-label,custom_id,prediction
+label,custom_id,Meta-Llama-3.1-70B-Instruct_prediction
 1,translation-575,1
 0,translation-1315,1
 1,translation-40,1
@@ -46,7 +46,7 @@ label,custom_id,prediction
 0,translation-1776,0
 0,translation-1895,0
 1,translation-317,1
-0,translation-1614,1
+0,translation-1614,0
 1,translation-1019,1
 0,translation-2116,0
 0,translation-1544,1
@@ -76,7 +76,7 @@ label,custom_id,prediction
 0,translation-1592,1
 1,translation-552,0
 0,translation-1336,1
-0,translation-1664,1
+0,translation-1664,0
 1,translation-610,1
 1,translation-329,1
 0,translation-1175,1
@@ -122,11 +122,11 @@ label,custom_id,prediction
 1,translation-334,1
 1,translation-536,1
 1,translation-777,0
-0,translation-1296,0
+0,translation-1296,1
 1,translation-167,1
 0,translation-1503,0
 0,translation-1797,1
-1,translation-199,1
+1,translation-199,0
 1,translation-406,0
 0,translation-1685,1
 1,translation-586,1
@@ -151,7 +151,7 @@ label,custom_id,prediction
 1,translation-292,1
 1,translation-865,1
 1,translation-824,1
-0,translation-1382,0
+0,translation-1382,1
 1,translation-343,1
 1,translation-162,1
 1,translation-751,1
@@ -197,7 +197,7 @@ label,custom_id,prediction
 0,translation-1862,0
 1,translation-760,1
 1,translation-590,1
-1,translation-499,1
+1,translation-499,0
 1,translation-321,1
 1,translation-544,1
 0,translation-1271,1
@@ -226,7 +226,7 @@ label,custom_id,prediction
 0,translation-1535,0
 0,translation-1165,1
 1,translation-442,1
-0,translation-1959,0
+0,translation-1959,1
 1,translation-696,1
 0,translation-1775,1
 0,translation-1215,1
@@ -243,7 +243,7 @@ label,custom_id,prediction
 0,translation-1450,1
 1,translation-634,1
 1,translation-252,1
-0,translation-1138,1
+0,translation-1138,0
 0,translation-1395,0
 0,translation-1143,0
 1,translation-103,0
@@ -263,7 +263,7 @@ label,custom_id,prediction
 1,translation-45,1
 1,translation-927,1
 0,translation-1802,0
-1,translation-973,1
+1,translation-973,0
 0,translation-1187,1
 0,translation-1899,1
 0,translation-1205,1
@@ -281,7 +281,7 @@ label,custom_id,prediction
 1,translation-191,1
 1,translation-848,1
 0,translation-1517,0
-0,translation-1479,0
+0,translation-1479,1
 1,translation-131,1
 0,translation-1629,1
 1,translation-110,1
@@ -306,7 +306,7 @@ label,custom_id,prediction
 1,translation-135,1
 1,translation-878,1
 0,translation-1127,1
-0,translation-1769,0
+0,translation-1769,1
 0,translation-2037,1
 1,translation-852,1
 0,translation-2066,1
@@ -325,19 +325,19 @@ label,custom_id,prediction
 1,translation-119,1
 0,translation-1886,1
 1,translation-506,1
-0,translation-1270,1
+0,translation-1270,0
 0,translation-1422,0
 1,translation-980,1
 0,translation-1337,0
 1,translation-888,1
-0,translation-1480,0
+0,translation-1480,1
 0,translation-1459,1
 1,translation-627,0
-1,translation-408,1
+1,translation-408,0
 1,translation-775,1
 0,translation-1549,1
 0,translation-1738,1
-0,translation-1081,0
+0,translation-1081,1
 0,translation-1721,0
 0,translation-1508,1
 1,translation-276,1
@@ -350,7 +350,7 @@ label,custom_id,prediction
 0,translation-2131,1
 0,translation-1645,1
 0,translation-1284,0
-0,translation-1682,0
+0,translation-1682,1
 1,translation-786,1
 1,translation-130,1
 1,translation-297,1
@@ -379,12 +379,12 @@ label,custom_id,prediction
 1,translation-511,1
 1,translation-624,1
 0,translation-1576,1
-0,translation-2005,1
+0,translation-2005,0
 0,translation-1134,1
 0,translation-1421,1
 0,translation-2031,0
 1,translation-246,1
-0,translation-1606,0
+0,translation-1606,1
 0,translation-2064,0
 0,translation-1644,0
 0,translation-2022,1
@@ -421,7 +421,7 @@ label,custom_id,prediction
 1,translation-971,1
 0,translation-1335,0
 0,translation-2130,0
-0,translation-1436,0
+0,translation-1436,1
 1,translation-55,1
 1,translation-882,1
 0,translation-1655,1

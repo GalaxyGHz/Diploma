@@ -4,3 +4,4 @@ large_models/best_checkpoints
 *.pyo
 __pycache__/
 .env
+saved_old

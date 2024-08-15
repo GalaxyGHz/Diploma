@@ -1,8 +1,8 @@
 #!/bin/bash
 #BATCH --job-name=lazar_fine_tuning_sarcasm_8B
 #SBATCH --partition=frida
-#SBATCH --time=4:00:00
-#SBATCH --gres=gpu:H100:2
+#SBATCH --time=10:00:00
+#SBATCH --gres=gpu:A100:2
 #SBATCH --tasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=512G
