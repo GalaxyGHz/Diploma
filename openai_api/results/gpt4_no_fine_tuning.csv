@@ -1,4 +1,4 @@
-label,custom_id,prediction,logprobs
+label,custom_id,no_fine_tuning_gpt4_prediction,no_fine_tuning_gpt4_logprobs
 1,translation-4,1,-1.0280384e-06
 1,translation-9,1,-0.00020604367
 1,translation-27,1,-4.0722858000000015e-05

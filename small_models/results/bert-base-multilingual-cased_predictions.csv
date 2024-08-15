@@ -1,4 +1,4 @@
-label,custom_id,probability,prediction
+label,custom_id,bert-base-multilingual-cased_probability,bert-base-multilingual-cased_prediction
 1,translation-575,0.5065789818763733,1
 0,translation-1315,0.5065789818763733,1
 1,translation-40,0.5065790414810181,1

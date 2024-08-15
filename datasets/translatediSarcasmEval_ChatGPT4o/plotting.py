@@ -25,7 +25,7 @@ plt.title(label=f"Slovene Translation Of iSarcasmEval Dataset\n")
 # Add vertical lines for mean and median
 plt.axvline(mean, color=(1.0, 0.0, 0.0), linestyle="--", alpha=0.8, label=f"Mean: {mean}")
 plt.axvline(median, color=(0.9, 0.5, 0.6), linestyle="--", alpha=0.9, label=f"Median: {median}")
-
+plt.grid(True)
 # Show
 plt.legend()
 plt.savefig(f"./figures/text_lengths_translated.pdf")

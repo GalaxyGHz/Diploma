@@ -1,4 +1,4 @@
-label,custom_id,probability,prediction
+label,custom_id,xlm-roberta-large_probability,xlm-roberta-large_prediction
 1,translation-575,0.4863431751728058,0
 0,translation-1315,0.5049195289611816,1
 1,translation-40,0.5039554834365845,1
