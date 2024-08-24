@@ -55,6 +55,7 @@ def train_logistic_regression():
 
     # Accuracy
     max_accuracy_index = np.argmax(accuracies)
+    print("Best C:", C_range[max_accuracy_index])
     plt.figure(figsize=(10, 6))
     sns.lineplot(x=np.log10(C_range), y=accuracies, marker='o', color=(0.5, 0.68, 0.99))
     plt.scatter(np.log10(C_range[max_accuracy_index]), accuracies[max_accuracy_index], color=(0.9, 0.5, 0.6), s=100, zorder=5)
