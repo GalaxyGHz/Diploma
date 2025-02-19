@@ -41,4 +41,11 @@ This work is licensed under the *Creative Commons Zero v1.0 Universal* LICENSE.
 
 If you wish to cite this work, please use the following citation:
 
-*TBD*
+```tex
+@inproceedings{lazar2024sarcasm,
+   url={http://dx.doi.org/10.70314/is.2024.scai.4212},
+   DOI={10.70314/is.2024.scai.4212},
+   booktitle={Proceedings of Slovenian Conference on Artificial Intelligence 2024},
+   publisher={Jožef Stefan Instutute},
+   year={2024} }
+```
